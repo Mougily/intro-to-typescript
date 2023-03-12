@@ -4,7 +4,9 @@
   "description": "![](./images/TS_LOGO.png)",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "tsc",
+    "start": "node ./dist/example.js",
+    "dev": "nodemon example.ts"
   },
   "repository": {
     "type": "git",
